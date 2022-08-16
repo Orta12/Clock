@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="index.css">
+        <title>Clcok</title>
+
+    </head>
+
+    <body>
+
+        <div class="w3-content w3-display-container">
+            <div class="border">
+                <div class="gray">
+                    <div class="clock mySlides">
+                        <span id="hours">H</span>
+                        <span id="miniutes">M</span>
+                        <span id="seconds">S</span>
+                    </div>
+
+                    <div class="clander mySlides">
+                        <span id="days">D</span>
+                        <span id="monthes">M</span>
+                        <span id="years">Y</span>
+                    </div>
+
+                    <div class="stopwatch mySlides">
+                        <span id="miniutess">00 :</span>
+                        <span id="secondss">00 :</span>
+                        <span id="miliseconds">00</span>
+                        <button class="start" id="start" onclick="start()">Start</button>
+                        <button class="start" id="wait" onclick="wait()">Wait</button>
+                        <button class="start" id="revert" onclick="revert()">revert</button>
+                    </div>
+
+                    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+                        <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                        <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+                        <span role="button" class="w3-badge demo w3-border w3-tran sparent w3-hover-white"
+                            onclick="currentDiv(1)"></span>
+                        <span role="button" class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                            onclick="currentDiv(2)"></span>
+                        <span role="button" class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                            onclick="currentDiv(3)"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <span class="unknow">Time is money</span>
+            <span class="i">Orta</span>
+
+        </div>
+
+        <div class="todo">
+            <img role="button" id="add" class="add" onclick="add()" src="images/Add.png" alt="fuck enternet">
+            <img role="button" id="delete" class="delete" onclick="del()" src="images/delete.png" alt="Fuck off">
+            
+            <div class="genrate col-10" id="genrate">
+                <ul class="box" id="box">
+
+                </ul>
+            </div>
+
+            <script src="index.js"></script>
+    </body>
+
+</html>
