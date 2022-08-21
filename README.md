@@ -8,12 +8,12 @@ A Cloud Clock/Calendar/Stopwatch - With A To Do List
 ## Installation
 
 
-Link Open Only 2:00pm To 4:00pm Wait For Official Release 
 
+Only for laptop and pc
 
 ```Link Of My Project```
  
-Http://127.0.0.1:3002/
+https://ortasclock.netlify.app
 
 
 
